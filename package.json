@@ -46,6 +46,7 @@
     "strings": "nodemon ./js/03-strings.js",
     "numbers": "nodemon ./js/02-numbers.js",
     "console": "nodemon ./js/01-console.js",
+    "nd": "nodemon ./js/00-nd.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
