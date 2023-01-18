@@ -40,6 +40,7 @@
     "nodemon": "^2.0.20"
   },
   "scripts": {
+    "cikloFor": "nodemon ./ND/001-ciklo-for.js",
     "typeof": "nodemon ./js/10-typeof.js",
     "function": "nodemon ./js/09-function.js",
     "for": "nodemon ./js/08-for.js",
@@ -50,7 +51,7 @@
     "strings": "nodemon ./js/03-strings.js",
     "numbers": "nodemon ./js/02-numbers.js",
     "console": "nodemon ./js/01-console.js",
-    "nd": "nodemon ./js/00-nd.js",
+    "nd": "nodemon ./ND/00-nd.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
