@@ -48,11 +48,9 @@ for (let i = -70; i <= 30; i++) {
 }
 console.log ('Suma -70..30:', sum3);
 
-console.clear();
+
 console.log ('----panaudojant ciklą perrašyti tekstinio tipo kintamųjų reikšmes iš kito galo:------');
 //pvz.: “abcdef” -> “fedcba”
-
-console.clear();
 
 const teksto = 'mindaugas'
 let eilute = '';
@@ -60,23 +58,55 @@ for (let i = teksto.length-1; i >= 0; i-- ){
     eilute += teksto[i];
     console.log (eilute);
 }
-console.clear();
+
 
 console.log ('----Suskaičiuoti, kiek nurodytame intervale yra skaičių, kurie dalijasi be liekanos iš 3, 5 ir 7 atskirai:------');
 
-// 0 - 11
-let sum4 = 0;
 
+const dalinuIs = 3; //keiciam 5 ir 7 --->gausime reikalingus rezultatus
+let vnt = 0;
+const a = 0;
+const b = 11;
 for (let i = 0; i <= 11; i++){
-    sum4 = i;
-    let sk3 =sum4/3;
-    if (sk3 )
-    console.log (sk3);
+    if (i % dalinuIs === 0) {
+        vnt++;
+    }
 }
 
+const rezultat = `Skaičių intervale tarp ${a} ir ${b}, besidalijančių be liekanos iš ${dalinuIs} yra ${vnt} vienetai.`;
+
+console.log (rezultat)
 
 // 8 - 31
+
+const dalinuIs1 = 7; //keiciam 3 ir 5 --->gausime reikalingus rezultatus
+let vnt1 = 0;
+const a1 = 8;
+const b1 = 31;
+for (let i = 8; i <= 31; i++){
+    if (i % dalinuIs1 === 0) {
+        vnt1++;
+    }
+}
+
+const rezultat1 = `Skaičių intervale tarp ${a1} ir ${b1}, besidalijančių be liekanos iš ${dalinuIs1} yra ${vnt1} vienetai.`;
+
+console.log (rezultat1)
+
 // -18 - 18
+const dalinuIs2 = 3; //keiciam 7 ir 5 --->gausime reikalingus rezultatus
+let vnt2 = 0;
+const a2 = -18;
+const b2 = 18;
+for (let i = -18; i <= 18; i++){
+    if (i % dalinuIs2 === 0) {
+        vnt2++;
+    }
+}
+
+const rezultat2 = `Skaičių intervale tarp ${a2} ir ${b2}, besidalijančių be liekanos iš ${dalinuIs2} yra ${vnt2} vienetai.`;
+
+console.log (rezultat2)
 // rezultatą pateikti tokiu formatu:
 // Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 3 yra 4 vienetai.
 // Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 5 yra 3 vienetai.
