@@ -44,13 +44,18 @@ console.log (suma);
 const tekstasSuTarpu = `${akys} ${ausis} ${nosis}`;
 console.log (tekstasSuTarpu);
 
-const sumAlga = alga[0] + alga[1] - alga[2] + alga[3] - alga[4];
-console.log (sumAlga);
-const sumData = data[0] + data[1] - data[2] + data[3] - data[4];
-console.log (sumData);
-const sumValanda = valanda[0] + valanda[1] - valanda[2] + valanda[3] - valanda[4];
-console.log (sumValanda);
+// const sumAlga = alga[0] + alga[1] - alga[2] + alga[3] - alga[4];
+// console.log (sumAlga);
+// const sumData = data[0] + data[1] - data[2] + data[3] - data[4];
+// console.log (sumData);
+// const sumValanda = valanda[0] + valanda[1] - valanda[2] + valanda[3] - valanda[4];
+// console.log (sumValanda);
+console.log ('-----sds-----');
 
+const contact4 = alga.concat(data, valanda);
+console.log(contact4);
+
+console.log ('----------');
 
 const sumVardai =`${vardai[4]}, ${vardai[3]}, ${vardai[2]}, ${vardai[1]}, ${vardai[0]}.`
 console.log (sumVardai);

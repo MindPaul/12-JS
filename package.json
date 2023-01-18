@@ -40,6 +40,10 @@
     "nodemon": "^2.0.20"
   },
   "scripts": {
+    "typeof": "nodemon ./js/10-typeof.js",
+    "function": "nodemon ./js/09-function.js",
+    "for": "nodemon ./js/08-for.js",
+    "switch": "nodemon ./js/07-switch.js",
     "if": "nodemon ./js/06-if.js",
     "array": "nodemon ./js/05-array.js",
     "boolean": "nodemon ./js/04-boolean.js",
