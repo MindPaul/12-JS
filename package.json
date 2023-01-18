@@ -40,6 +40,7 @@
     "nodemon": "^2.0.20"
   },
   "scripts": {
+    "functionn": "nodemon ./ND/002-functionn.js",
     "cikloFor": "nodemon ./ND/001-ciklo-for.js",
     "typeof": "nodemon ./js/10-typeof.js",
     "function": "nodemon ./js/09-function.js",
