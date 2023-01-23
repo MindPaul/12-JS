@@ -40,6 +40,7 @@
     "nodemon": "^2.0.20"
   },
   "scripts": {
+    "beliekanos": "nodemon ./js/13-beliekanos.js",
     "reverseString": "nodemon ./js/12-reverseString.js",
     "rangeSum": "nodemon ./js/11-rangeSum.js",
     "functionn": "nodemon ./ND/002-functionn.js",
